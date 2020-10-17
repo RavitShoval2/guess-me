@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Guess-Me</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <header>
+    <iframe src="https://giphy.com/embed/CjmvTCZf2U3p09Cn0h" width="425" height="400" frameBorder="0" class="giphy-embed"></iframe><p><a href="https://giphy.com/gifs/leroypatterson-cat-glasses-CjmvTCZf2U3p09Cn0h"></a></p>
+      <h1>Guess Me</h1>
+    </header>
+
+    <main>
+      <section class="game-start">
+        <h2>Think of Someone...</h2>
+        <button class="btn-start">I'm Ready!</button>
+      </section>
+
+      <section class="quest" style="display: none">
+        <h2></h2>
+        <button class="btn btn-yes">Yes</button>
+        <button class="btn btn-no">No</button>
+      </section>
+
+      <section class="new-quest" style="display: none">
+        <h2>OK, I gave up...</h2>
+
+        <form class="ending-form">
+          <label for="newGuess">You thought of: </label>
+          <input name="newGuess" type="txt" id="newGuess" placeholder="Your Guess" required />
+
+          <label for="newQuest">Question to differentiate:</label>
+          <input name="newQuest" type="txt" id="newQuest" placeholder="The answer is YES for yours" required />
+
+          <button type="submit" class="btn btn-add-guess">Make me Smarter!</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>CoffeRights &copy; 2020</footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/service.js"></script>
+    <script src="js/controller.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+  </body>
+</html>
+
+
+
